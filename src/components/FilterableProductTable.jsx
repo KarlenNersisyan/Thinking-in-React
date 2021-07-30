@@ -29,6 +29,7 @@ export default class FilterableProductTable extends Component {
   render() {
     return (
       <div>
+        <h1> Thinking in React</h1>
         <SearchBar
           filterText={this.state.filterText}
           inStockOnly={this.state.inStockOnly}
